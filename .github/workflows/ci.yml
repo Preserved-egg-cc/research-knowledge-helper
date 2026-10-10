@@ -1,0 +1,33 @@
+name: Check project
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Rebuild, test and scan
+        run: python -X utf8 scripts/test.py
+      - name: Validate standalone CLI
+        run: python -X utf8 knowledge_base/kb.py validate
+      - name: Verify local packages
+        run: python -X utf8 scripts/package.py

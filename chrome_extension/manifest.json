@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "科研资料助手 · 本地题库",
+  "version": "0.2.2",
+  "description": "从本地资料匹配已审阅答案，显示出处，核验后填写。无需模型账号或 API。",
+  "minimum_chrome_version": "111",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "科研资料助手"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ks.wjx.com/vm/O6A8md8.aspx*",
+        "https://ks.wjx.com/vm/Ph9x19r.aspx*",
+        "https://ks.wjx.com/vm/O6A8JZ8.aspx*",
+        "https://ks.wjx.com/wjx/join/completemobile2.aspx*"
+      ],
+      "js": [
+        "core.js",
+        "adapter.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "version_name": "0.2.2-review"
+}

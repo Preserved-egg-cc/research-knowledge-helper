@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "files_checked": 100,
+  "errors": [],
+  "data": {
+    "ok": true,
+    "errors": [],
+    "source_records": 669,
+    "reviewed_answers": 255,
+    "sources": 34,
+    "profiles": 3
+  },
+  "private_raw_files_distributed": false,
+  "limitations": "自动扫描不能识别所有自然语言个人信息；还需人工审阅数据授权及文本。"
+}

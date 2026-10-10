@@ -1,0 +1,34 @@
+# Local outputs and runtime state
+/dist/
+/private/
+/local_data/
+/evaluation/
+/history/
+/work/
+*private-scan*.json
+*private_scan*.json
+*.log
+*.zip
+*.7z
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+
+# Environments, credentials and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

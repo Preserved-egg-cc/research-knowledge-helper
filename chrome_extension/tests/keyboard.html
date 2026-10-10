@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<title>助手输入框键盘回归</title>
+<style>
+  body{margin:40px;max-width:650px;font:16px/1.7 system-ui;color:#193446}
+  button,input,textarea{font:inherit;padding:7px}pre{white-space:pre-wrap}
+  .field{padding:12px;border:1px solid #ccd8de;margin:12px 0}.ok{color:#126948}
+</style>
+<h1>助手输入框键盘回归</h1>
+<p>匿名本地表单，加载真实面板代码。模拟页面全局退格拦截；不访问问卷网站，不保存答卷。</p>
+<button id="run-keyboard">运行事件回归</button>
+<pre id="keyboard-result">等待运行</pre>
+<p>人工键盘核验：在助手姓名和班级框内输入示例文字，检查 Backspace、Delete、方向键、全选替换和 Tab。修改身份后应禁用提交。</p>
+<div class="field" id="div1"><table>
+  <tr><td><label for="native-name">姓名</label></td><td><textarea id="native-name"></textarea></td></tr>
+  <tr><td><label for="native-class">班级</label></td><td><textarea id="native-class"></textarea></td></tr>
+</table></div>
+<div class="field" id="div2"><span class="topicnumber">1.</span><div class="topichtml">用于键盘回归的判断题。</div>
+  <input type="radio" name="truth" id="truth-yes"><label for="truth-yes">对</label>
+  <input type="radio" name="truth" id="truth-no"><label for="truth-no">错</label>
+</div>
+<p id="page-key-events">页面收到键盘事件：0；拦截退格：0</p>
+<script src="../core.js"></script><script src="../adapter.js"></script>
+<script src="keyboard.js"></script><script src="../content.js"></script>
+</html>

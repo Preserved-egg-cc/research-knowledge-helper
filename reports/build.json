@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "source_records": 669,
+  "reviewed_answers": 255,
+  "sources": 34,
+  "profiles": 3,
+  "extension_records": 428,
+  "cited_evidence": 247,
+  "version": "0.2.2",
+  "pack_hash": "fd9561c9a77b9bd3f8c690223429e1f610ad5160fa0f5601dfaff7950ed4f556"
+}

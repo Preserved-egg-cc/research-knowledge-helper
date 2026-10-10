@@ -1,0 +1,11 @@
+{
+  "name": "research-knowledge-helper",
+  "version": "0.2.2",
+  "private": true,
+  "description": "Local knowledge lookup and Chrome questionnaire form assistance",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test --test-isolation=none chrome_extension/tests/core.test.js chrome_extension/tests/background.test.js"
+  }
+}

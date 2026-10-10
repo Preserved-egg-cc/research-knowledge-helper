@@ -1,0 +1,291 @@
+[
+  {
+    "query": "氧气的性质是什么",
+    "gold_stem": "氧气的性质是",
+    "answer": [
+      "助燃"
+    ]
+  },
+  {
+    "query": "氮气的性质是什么",
+    "gold_stem": "氮气的性质是",
+    "answer": [
+      "化学性质极不活泼"
+    ]
+  },
+  {
+    "query": "氧气气瓶是什么颜色",
+    "gold_stem": "氧气气瓶为",
+    "answer": [
+      "蓝色"
+    ]
+  },
+  {
+    "query": "氮气气瓶是什么颜色",
+    "gold_stem": "氮气气瓶为",
+    "answer": [
+      "黑色"
+    ]
+  },
+  {
+    "query": "氢气气瓶是什么颜色",
+    "gold_stem": "氢气气瓶为",
+    "answer": [
+      "绿色"
+    ]
+  },
+  {
+    "query": "任何电气设备在未验明无电之前如何处理",
+    "gold_stem": "任何电气设备在未验明无电之前",
+    "answer": [
+      "有电"
+    ]
+  },
+  {
+    "query": "遇有触电的伤员现场救护首先做什么",
+    "gold_stem": "遇有触电的伤员现场救护时应首先",
+    "answer": [
+      "断电"
+    ]
+  },
+  {
+    "query": "运行中的漏电保护器多久检查一次",
+    "gold_stem": "对运行中的漏电保护器",
+    "answer": [
+      "每月"
+    ]
+  },
+  {
+    "query": "我所危险化学废物的处理工作原则",
+    "gold_stem": "我所对危险化学废物的处理的工作原则",
+    "answer": [
+      "分类收集、定点存放、专人管理、集中处理"
+    ]
+  },
+  {
+    "query": "实验室重大事故快速处理步骤",
+    "gold_stem": "实验室重大事故快速处理步骤",
+    "answer_labels": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "query": "金属外壳手持式电动工具电源线安全要求",
+    "gold_stem": "金属外壳的手持式电动工具",
+    "answer_labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "query": "活泼金属的使用规定",
+    "gold_stem": "活泼金属使用规定",
+    "answer_labels": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "query": "新生保留入学资格期间学籍和待遇如何",
+    "answer_labels": [
+      "C"
+    ],
+    "gold_ids": [
+      "Q-9d4d8fefc74e0d14"
+    ]
+  },
+  {
+    "query": "研究生休学一般几年累计几年",
+    "answer_labels": [
+      "A"
+    ],
+    "gold_ids": [
+      "Q-d8502a93c199f9b3"
+    ]
+  },
+  {
+    "query": "因打架致他人轻微伤给予什么处分",
+    "answer": [
+      "留校察看处分"
+    ],
+    "gold_ids": [
+      "Q-65c8528a99acea88"
+    ]
+  },
+  {
+    "query": "因打架致他人轻伤给予什么处分",
+    "answer": [
+      "开除学籍处分"
+    ],
+    "gold_ids": [
+      "Q-fe42707bdcb3a525"
+    ]
+  },
+  {
+    "query": "擅自调换宿舍床位的处分",
+    "answer": [
+      "警告"
+    ],
+    "gold_ids": [
+      "Q-10d61b06fa9f6dca"
+    ]
+  },
+  {
+    "query": "擅自占用宿舍床位的处分",
+    "answer": [
+      "记过及以上处分"
+    ],
+    "gold_ids": [
+      "Q-e4058dbb7e1696fc"
+    ]
+  },
+  {
+    "query": "病假一周以内批准人以及两周以上备案部门",
+    "answer_labels": [
+      "C"
+    ],
+    "gold_ids": [
+      "Q-fa130b639ffcdd20"
+    ]
+  },
+  {
+    "query": "纪律处分警告的期限是多少",
+    "answer": [
+      "180"
+    ],
+    "gold_ids": [
+      "Q-4c5909604291b2c7"
+    ]
+  },
+  {
+    "query": "普通招考博士直博硕博连读最长修读年限",
+    "answer": [
+      "6;8;8"
+    ],
+    "gold_ids": [
+      "Q-2ee7650151c5d027"
+    ]
+  },
+  {
+    "query": "硕士入学后开题报告应在第几个学期结束前完成",
+    "answer_labels": [
+      "C"
+    ],
+    "gold_ids": [
+      "Q-3bee7932916e995d"
+    ]
+  },
+  {
+    "query": "所有样品仪器和材料须在谁指导下领取使用",
+    "answer": [
+      "导师;操作规程"
+    ],
+    "gold_ids": [
+      "Q-1ca1bd87efabea66"
+    ]
+  },
+  {
+    "query": "科学的本质是什么",
+    "answer_labels": [
+      "A"
+    ],
+    "gold_ids": [
+      "Q-367968174a6ef245"
+    ]
+  },
+  {
+    "query": "科学的灵魂是什么",
+    "answer": [
+      "创新"
+    ],
+    "gold_ids": [
+      "Q-af7120826d9d0d46"
+    ]
+  },
+  {
+    "query": "学生床位禁止哪些行为",
+    "answer_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "gold_ids": [
+      "Q-a6b056a569b38b7c"
+    ]
+  },
+  {
+    "query": "任何合作论文发表前由谁审阅",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A02"
+    ]
+  },
+  {
+    "query": "引证部分不能构成引用人作品的什么部分",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A02"
+    ]
+  },
+  {
+    "query": "保密的科研成果发表和使用应遵守什么",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A02"
+    ]
+  },
+  {
+    "query": "未经导师和审批人书面许可可以投稿吗",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A03"
+    ]
+  },
+  {
+    "query": "研究生能否参与涉密课题项目",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A03"
+    ]
+  },
+  {
+    "query": "违反学术道德的日常受理申诉工作由谁负责",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A06"
+    ]
+  },
+  {
+    "query": "学术道德申诉审查中导师是否应回避",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A06"
+    ]
+  },
+  {
+    "query": "违反学术道德情节严重已经获得学位如何处理",
+    "gold_ids": [
+      "D-1699ebe8bdbef48e-A05"
+    ]
+  },
+  {
+    "query": "学生对处分决定提出申诉的期限是几个工作日",
+    "status": "conflict",
+    "conflict_id": "C01"
+  },
+  {
+    "query": "故意损坏公共财物给予什么处分",
+    "status": "conflict",
+    "conflict_id": "C04"
+  },
+  {
+    "query": "复学申请应在休学期满前还是之后",
+    "status": "conflict",
+    "conflict_id": "C02"
+  },
+  {
+    "query": "火星探测器的轨道高度和卫星质量是多少",
+    "status": "insufficient_evidence"
+  },
+  {
+    "query": "量子霍尔电导的拓扑陈数如何计算",
+    "status": "insufficient_evidence"
+  }
+]
