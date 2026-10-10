@@ -27,7 +27,7 @@ chrome_extension/     ← 选择这个文件夹
 
 ## TIPS
 
-问卷星会记录填写时间，建议挂会儿机再提交。
+问卷星会记录填写时长，建议挂会儿机再提交。
 
 [详细安装说明](docs/CHROME_INSTALL.md)
 
