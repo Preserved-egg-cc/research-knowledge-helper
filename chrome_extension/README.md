@@ -4,8 +4,9 @@
 
 ## 安装
 
-1. 解压扩展包，在 Chrome 打开 `chrome://extensions/`，开启“开发者模式”。
-2. 点击“加载已解压的扩展程序”，选择直接包含 `manifest.json` 的文件夹。
+1. 从 [最新 Release](https://github.com/Preserved-egg-cc/research-knowledge-helper/releases/latest) 下载 `research-knowledge-helper-chrome.zip` 并解压。
+2. 在 Chrome 打开 `chrome://extensions/`，开启“开发者模式”。
+3. 点击“加载已解压的扩展程序”，选择解压后直接包含 `manifest.json` 的 `chrome_extension` 文件夹。
 
 ## 使用
 
@@ -17,3 +18,5 @@
 **收起**可折叠面板。更新后需要重新加载扩展并刷新问卷，无需重启 Chrome。
 
 [安装说明](INSTALL.md)
+
+如果觉得好用，记得去 [项目主页](https://github.com/Preserved-egg-cc/research-knowledge-helper) 点一下 **Star ⭐**！

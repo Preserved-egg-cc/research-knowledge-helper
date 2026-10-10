@@ -2,9 +2,11 @@
 
 适用于桌面版 Chrome。普通使用者不需要 Python、Node.js、GPT/DeepSeek 账号或 API 密钥。目前通过“加载已解压的扩展程序”安装，不是 Chrome 应用商店版本。
 
-## 1. 解压并找对文件夹
+## 1. 下载、解压并找对文件夹
 
-从维护者提供的项目 ZIP 或扩展 ZIP 解压到一个准备长期保留的位置。不要直接选择 ZIP，不要把安装目录放进会自动清理的临时文件夹。
+点击 [下载 Chrome 扩展压缩包](https://github.com/Preserved-egg-cc/research-knowledge-helper/releases/latest/download/research-knowledge-helper-chrome.zip)，或打开 [最新 Release](https://github.com/Preserved-egg-cc/research-knowledge-helper/releases/latest)，在 **Assets** 中下载 `research-knowledge-helper-chrome.zip`。
+
+把 ZIP 解压到一个准备长期保留的位置。安装只需这个扩展包，不用下载 Release 下方的 `Source code`。不要直接选择 ZIP，也不要把安装目录放进会自动清理的临时文件夹。
 
 需要选择的目录结构如下：
 
@@ -36,7 +38,7 @@ chrome_extension/       ← 在 Chrome 中选择这一层
 
 ## 3. 在问卷页面使用
 
-1. 打开项目 README 列出的已适配问卷。已开着的页面需要刷新一次。
+1. 打开要填写的问卷星网页；已开着的页面需要刷新一次。可点击扩展工具栏图标查看支持的问卷入口。
 2. 在右上角“科研资料助手”中填写自己的姓名、班级。
 3. 点击“检查题目”，扩展会匹配并自动填写已收录题目。
 4. 等待“已填写 X/Y 题”。每次实际操作有约 250–650 毫秒间隔；填写时不要刷新页面。

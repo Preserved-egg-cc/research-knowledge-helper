@@ -4,16 +4,15 @@
 
 ## 安装
 
-1. 点击本页面右上方的 **Code**，再点击 **Download ZIP**，下载并解压项目。
+1. 点击 [下载 Chrome 扩展压缩包](https://github.com/Preserved-egg-cc/research-knowledge-helper/releases/latest/download/research-knowledge-helper-chrome.zip)，下载后解压。也可在 [最新 Release](https://github.com/Preserved-egg-cc/research-knowledge-helper/releases/latest) 的 **Assets** 中下载同名 ZIP。
 2. 在 Chrome 地址栏输入 `chrome://extensions/`，开启“开发者模式”。
 3. 点击“加载已解压的扩展程序”，选择解压后的 `chrome_extension` 文件夹。
 
 安装示例：解压后，选择下面标注的文件夹，打开这一层就能看到 `manifest.json`。
 
 ```text
-research-knowledge-helper-main/
-└── chrome_extension/     ← 选择这个文件夹
-    └── manifest.json
+chrome_extension/     ← 选择这个文件夹
+└── manifest.json
 ```
 
 ## 使用
@@ -31,3 +30,5 @@ research-knowledge-helper-main/
 问卷星会记录填写时间，建议挂会儿机再提交。
 
 [详细安装说明](docs/CHROME_INSTALL.md)
+
+如果觉得好用，记得点一下页面右上角的 **Star ⭐** 支持一下！

@@ -32,10 +32,10 @@ def main():
     dist.mkdir(exist_ok=True)
     version = read(ROOT/'chrome_extension/manifest.json')['version']
     files = public_files()
-    packages = [archive(dist/f'research-knowledge-helper-{version}-review.zip', files, 'research-knowledge-helper/')]
+    packages = [archive(dist/f'research-knowledge-helper-{version}.zip', files, 'research-knowledge-helper/')]
     names = ['manifest.json', 'core.js', 'adapter.js', 'content.js', 'background.js', 'popup.html',
              'README.md', 'INSTALL.md', 'PRIVACY.md', 'LICENSE', 'NOTICE', 'data/answer-pack.json']
-    packages += [archive(dist/f'research-knowledge-helper-extension-{version}-review.zip',
+    packages += [archive(dist/'research-knowledge-helper-chrome.zip',
                          [ROOT/'chrome_extension'/n for n in names], '')]
     (dist/'SHA256SUMS').write_text(''.join(p['sha256']+'  '+p['file']+'\n' for p in packages), encoding='utf-8')
     print(json.dumps({'local_only': True, 'packages': packages}, ensure_ascii=False, indent=2))
